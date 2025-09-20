@@ -6,6 +6,7 @@ import About from "./components/About";
 import Clients from "./components/Clients";
 import Footer from "./components/Footer";
 import TopHeader from "./components/TopHeader";
+import Placements from "./components/Placements";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
         <Services />
         <About />
         <Clients />
+        <Placements />
       </main>
       <Footer />
     </div>
