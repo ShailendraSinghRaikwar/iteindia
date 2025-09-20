@@ -7,6 +7,7 @@ import Clients from "./components/Clients";
 import Footer from "./components/Footer";
 import TopHeader from "./components/TopHeader";
 import Placements from "./components/Placements";
+import Partner from "./components/Partner";
 
 export default function App() {
   return (
@@ -15,9 +16,10 @@ export default function App() {
       <Header />
       <main className="flex-1">
         <Hero />
-        <Services />
+        <Partner />
+        {/* <Services /> */}
         <About />
-        <Clients />
+        {/* <Clients /> */}
         <Placements />
       </main>
       <Footer />
